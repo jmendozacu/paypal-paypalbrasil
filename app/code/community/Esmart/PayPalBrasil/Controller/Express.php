@@ -34,7 +34,7 @@ class Esmart_PayPalBrasil_Controller_Express extends Mage_Paypal_Controller_Expr
      *
      * @throws Mage_Core_Exception
      */
-    private function _initCheckout()
+    protected function _initCheckout()
     {
         $quote = $this->_getQuote();
         if (!$quote->hasItems() || $quote->getHasError()) {
