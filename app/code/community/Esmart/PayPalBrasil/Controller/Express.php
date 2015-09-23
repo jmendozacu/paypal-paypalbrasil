@@ -92,7 +92,7 @@ class Esmart_PayPalBrasil_Controller_Express extends Mage_Paypal_Controller_Expr
      *
      * @return Mage_Checkout_Model_Session
      */
-    private function _getCheckoutSession()
+    protected function _getCheckoutSession()
     {
         return Mage::getSingleton('checkout/session');
     }
