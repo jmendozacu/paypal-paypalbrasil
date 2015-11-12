@@ -1,0 +1,16 @@
+{
+  "name": "paypal/paypalbrasil",
+  "type": "magento-module",
+  "license":"",
+  "description":"Paypal Brasil",
+
+  "authors":[
+    {
+      "name":"Mauro Silva",
+      "email":"mauro.silva@comvanilla.com.br"
+    }
+  ],
+  "suggest": {
+    "magento-hackathon/magento-composer-installer": ""
+  }
+}
